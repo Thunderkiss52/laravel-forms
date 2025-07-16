@@ -7,7 +7,7 @@
         "spatie/laravel-package-tools": "^1.18",
         "Thunderkiss52/laravel-permission": "dev-main",
         "phpoffice/phpspreadsheet": "^4.0",
-        "Thunderkiss52/laravel-eloquent-authorable": "dev-master",
+        "Thunderkiss52/laravel-eloquent-authorable": "dev-main",
         "Thunderkiss52/laravel-documents": "dev-main",
         "spatie/eloquent-sortable": "^4.4"
     },
