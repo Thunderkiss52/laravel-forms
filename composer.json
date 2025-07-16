@@ -1,0 +1,50 @@
+{
+    "name": "Thunderkiss52/laravel-forms",
+    "require": {
+        "php": ">=8.2",
+        "laravel/framework": "^11.0",
+        "spatie/laravel-data": "^4.8",
+        "spatie/laravel-package-tools": "^1.18",
+        "Thunderkiss52/laravel-permission": "dev-main",
+        "phpoffice/phpspreadsheet": "^4.0",
+        "Thunderkiss52/laravel-eloquent-authorable": "dev-master",
+        "Thunderkiss52/laravel-documents": "dev-main",
+        "spatie/eloquent-sortable": "^4.4"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Thunderkiss52/laravel-documents.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Thunderkiss52/laravel-eloquent-authorable.git"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Thunderkiss52\\LaravelForms\\FormsProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Thunderkiss52\\LaravelForms\\": "src/"
+        }
+    },
+    "scripts": {
+        "analyse": "vendor/bin/phpstan analyse",
+        "baseline": "vendor/bin/phpstan analyse --generate-baseline",
+        "test": "vendor/bin/pest"
+    },
+    "authors": [
+        {
+            "name": "Thunderkiss52",
+            "email": "Thunderkiss52@gmail.com"
+        }
+    ]
+}
