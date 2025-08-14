@@ -3,7 +3,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
 use PhpOffice\PhpSpreadsheet\IOFactory;
-use Thunderkiss52\LaravelDocuments\DocumentFactory;
+use App\Services\LaravelDocuments\DocumentFactory;
 use Thunderkiss52\LaravelForms\Controllers\DraftController;
 
 Route::middleware(['auth', 'web'])->prefix('forms')->name('forms.')->group(function () {

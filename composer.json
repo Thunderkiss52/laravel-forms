@@ -8,14 +8,9 @@
         "Thunderkiss52/laravel-permission": "dev-main",
         "phpoffice/phpspreadsheet": "^4.0",
         "Thunderkiss52/laravel-eloquent-authorable": "dev-main",
-        "Thunderkiss52/laravel-documents": "dev-main",
         "spatie/eloquent-sortable": "^4.4"
     },
     "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Thunderkiss52/laravel-documents.git"
-        },
         {
             "type": "vcs",
             "url": "https://github.com/Thunderkiss52/laravel-eloquent-authorable.git"
